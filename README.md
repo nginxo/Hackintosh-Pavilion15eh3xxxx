@@ -1,5 +1,6 @@
 # Hackintosh-Pavilion15eh3xxxx
 Hackintosh for the HP Pavilion 15-eh3xxxx (Ryzen 7 7730U)
+No one made an EFI for these specs, so why not share mine?
 
 ### This hackintosh boots up to Sonoma (tested), however Tahoe is untested.
 ### Made originally for Ventura (works best in terms of optimization and performance)
@@ -62,3 +63,19 @@ FOLLOW THESE STEPS CAREFULLY AND IN ORDER!
 cd /Volumes/UnPlugged
 ./UnPlugged.command
 ```
+
+If you get a warning, continue by typing Y.
+
+Choose the first approach (No.1, Fully expand InstallAssistant.pkg)
+
+You will be given a list of volumes, **choose the one in which you will be installing macOS in!**
+
+Afterwards, choose Symlink (No.1) and press Y to continue.
+
+Wait for a couple of minutes while the installer expands the files.
+
+### The installer started and is now on the screen!
+
+Great! Now just follow the installer's instructions and macOS will be installed automatically.
+
+If this guide has helped you, please star it! Much appreciated :)
